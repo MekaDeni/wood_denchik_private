@@ -5,13 +5,13 @@
         "name": "Kartoved24"
       },
       "creation_time": "2022-06-26T22:08:18.988Z",
-      "details": {
-        "content": "Пока поняли, что это будет лендос сайта с торговым ботом",
-        "mime": "text/markdown"
-      },
       "id": "3",
       "references": [],
-      "title": "Понять, что пилить"
+      "title": "Понять, что пилить",
+      "description": {
+        "content": "Пока поняли, что это будет лендос сайта с торговым ботом",
+        "mime": "text/markdown"
+      }
     }
   ],
   "in-progress": [],
