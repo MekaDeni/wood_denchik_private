@@ -5,31 +5,16 @@
         "name": "Kartoved24"
       },
       "creation_time": "2022-06-26T22:08:18.988Z",
+      "details": {
+        "content": "Пока поняли, что это будет лендос сайта с торговым ботом",
+        "mime": "text/markdown"
+      },
       "id": "3",
       "references": [],
       "title": "Понять, что пилить"
     }
   ],
-  "in-progress": [
-    {
-      "assignedTo": {
-        "name": "Kartoved24"
-      },
-      "creation_time": "2022-06-26T22:08:09.161Z",
-      "id": "2",
-      "references": [],
-      "title": "Вуд пилит"
-    },
-    {
-      "assignedTo": {
-        "name": "Kartoved24"
-      },
-      "creation_time": "2022-06-26T22:08:02.049Z",
-      "id": "1",
-      "references": [],
-      "title": "Ден пилит"
-    }
-  ],
+  "in-progress": [],
   "testing": [],
   "done": []
 }
