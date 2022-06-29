@@ -3,7 +3,7 @@ body {
 	justify-content: center; 
 	align-items: center; 
 	height: 100vh; 
-	flex-flow: column-reverse;
+	flex-flow: column;
 	background: #000;
 	color: #999;
 }
@@ -11,4 +11,15 @@ body {
 .dark_img {
 	width:100px; 
 	height:100px
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 600px;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 30px;
+    color: blue;
 }
