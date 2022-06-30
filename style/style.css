@@ -1,13 +1,11 @@
 body {
-    background-image: url("wallpaper.jpeg");
-    background-size: 1920px 1080px;
-	color: #999;
-}
-
-header {
     display: flex;
-    align-items: flex-end;
-    flex-flow: column;
+    width: 100%;
+    flex-direction: column;
+    background-image: url("wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color: #999;
 }
 
 main {
@@ -21,6 +19,7 @@ main {
 a {
     color: red;
 }
+
 .dark_img {
 	width:100px; 
 	height:100px
@@ -28,9 +27,8 @@ a {
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 1500px;
+    justify-content: space-around;
+    width: 100%;
     font-family: fantasy;
     font-style: italic;
     font-size: 50px;
