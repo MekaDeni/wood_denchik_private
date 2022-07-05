@@ -1,2 +1,1 @@
-a = prompt("Хули");
-alert("хули у -> " + a);
+console.log("В РАБОТЕ")
