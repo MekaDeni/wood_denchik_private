@@ -1,3 +1,7 @@
+.transition {
+  transition: 0.2s;
+}
+
 .header {
     margin: 20px 100px 20px 100px;
 }
@@ -6,6 +10,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Courier;
+}
+
+.header__top {
+    padding: 10px;
+    background-color: #000;
 }
 
 .logo {
@@ -13,7 +23,20 @@
     height: 30px;
     background: url("../media/PwSB.gif") center center;
     background-size: cover;
+    cursor: pointer;
 }
+
 .menu {
     min-width: 400px;
+}
+
+.menu__item {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.menu__item:hover {
+    color: #A8E4A0;
 }
