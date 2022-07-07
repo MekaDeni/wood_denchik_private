@@ -2,8 +2,18 @@
   transition: 0.2s;
 }
 
+.shadow {
+    height: 100%;
+    padding: 20px 100px 20px 100px;
+    background: rgba(0,0,0,.5);
+}
+
+
 .header {
-    margin: 20px 100px 20px 100px;
+    position: relative;
+    height: 100vh;
+    background: url("../media/PwSB.gif") center center no-repeat;
+    background-size: cover;
 }
 
 .header__top, .menu {
@@ -15,13 +25,12 @@
 
 .header__top {
     padding: 10px;
-    background-color: #000;
 }
 
 .logo {
     width: 200px;
     height: 30px;
-    background: url("../media/PwSB.gif") center center;
+    background: url("../media/logo.gif") center center;
     background-size: cover;
     cursor: pointer;
 }
