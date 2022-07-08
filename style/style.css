@@ -12,7 +12,7 @@
 .header {
     position: relative;
     height: 100vh;
-    background: url("../media/PwSB.gif") center center no-repeat;
+    background: url("../media/PwSB.gif") 250px center no-repeat; /*тут сделал отступ*/
     background-size: cover;
 }
 
@@ -32,6 +32,7 @@
     height: 30px;
     background: url("../media/logo.gif") center center;
     background-size: cover;
+    margin-left: 80px; /*тут бро поставил отступ, чтобы с текстом хедера было ровно*/
     cursor: pointer;
 }
 
@@ -48,4 +49,54 @@
 
 .menu__item:hover {
     color: #A8E4A0;
+}
+
+/* Вуду пипол */
+.header__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color: white;
+}
+
+.header__title {
+    font-size: 2em;
+}
+
+.header__subtitle {
+    font-size: 4em;
+}
+
+.text-symphony {
+    color: red;
+    font-style: italic;
+    
+}
+
+.header__subtitle--wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header__advant {
+    display: flex;
+    gap: 10px;
+    font-size: 2em;
+    padding-left: 50px;
+}
+
+.header__advant--left {
+    color: #B22222;
+    font-style: italic;
+}
+
+.header__advant--right {
+    
+}
+body {
+    /* залил цвет чтобы слева не было просвета */
+    background-color: #0d2431; 
 }
