@@ -93,8 +93,9 @@
     font-style: italic;
 }
 
-.header__advant--right {
-    
+.header__advant--img {
+    width: 40px;
+    align-self: center;
 }
 body {
     /* залил цвет чтобы слева не было просвета */
