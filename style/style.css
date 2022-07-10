@@ -50,6 +50,10 @@
     color: #A8E4A0;
 }
 
+.menu__item--channel {
+    color: #42aaff;
+}
+
 
 /*-------------------------------*/
 /* Вуду пипол */
@@ -108,8 +112,42 @@
     padding: 20px 100px 20px 100px;
     display: flex;
     background: #000;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.footer__block:nth-child(2) {
+    margin-left: 200px;    
+}
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer__block .logo {
+    margin: 0 20px 0 0 ;
+}
+
+.footer__block .menu {
+    width: auto;
+    flex-flow: column;
+    min-width: auto;
+}
+.footer__block .menu__item {
+    margin-top: 10px;
+}
+
+.footer___title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.footer__text {
+    font-size: 15px;
 }
 
 /*-------------------------------*/
