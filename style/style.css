@@ -124,7 +124,25 @@
     min-height: 200px;
     min-width: 130px;
     padding: 10px;
-    border: 10px solid rgba(8, 150, 255, 0.7);
+    margin: 30px;
+    border: 5px solid rgba(8, 150, 255, 0.7);
+    border-radius: 3px;
+}
+
+.main__slaid:hover {
+    margin-top: 0;
+    transition: 0.1s;
+    background: rgba(8, 150, 255, 0.7);
+    border: 5px solid white;
+}
+
+.main__text {
+    margin: 10px;
+    text-align: center;
+}
+
+.main__button {
+    cursor: pointer;
 }
 
 /*----------------ДЭНИ------------*/
