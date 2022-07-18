@@ -1,0 +1,202 @@
+.transition {
+  transition: 0.3s;
+}
+
+.shadow {
+    height: 100vh;
+    padding: 70px 100px 70px 100px;
+    background: rgba(0,0,0,.5);
+}
+
+
+.header {
+    min-height: 100vh;
+    background: url("../media/background.png") center no-repeat;
+    background-size: cover;
+}
+
+.header__top, .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Courier;
+}
+
+.header__top {
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 30px;
+    background: url("../media/logo.gif") center center;
+    background-size: cover;
+    margin-left: 80px; /*тут бро поставил отступ, чтобы с текстом хедера было ровно*/
+    cursor: pointer;
+}
+
+.menu {
+    min-width: 400px;
+}
+
+.menu__item {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+
+}
+
+.menu__item:hover {
+    color: #A8E4A0;
+}
+
+.menu__item--channel {
+    color: #42aaff;
+}
+
+
+/*-------------------------------*/
+/* Вуду пипол */
+.header__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+.header__title {
+    font-size: 2em;
+}
+
+.header__subtitle {
+    font-size: 4em;
+}
+
+.text-symphony {
+    color: red;
+    font-style: italic;
+    
+}
+
+.header__subtitle--wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header__advant {
+    display: flex;
+    gap: 10px;
+    font-size: 2em;
+    padding-left: 50px;
+}
+
+.header__advant--left {
+    color: #B22222;
+    font-style: italic;
+}
+
+.header__advant--img {
+    width: 40px;
+    align-self: center;
+}
+/*-------------------------------*/
+
+/*_____MAIN_____*/
+.main__block--second {
+    background: #000;
+}
+.main__block {
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__image {
+    width: 50px;
+}
+
+.main__slaid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    min-height: 200px;
+    min-width: 130px;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid rgba(8, 150, 255, 0.9);
+    border-radius: 3px;
+    background: #000;
+    color: white;
+}
+
+.main__slaid:hover {
+    margin-top: 0;
+    transition: 0.3s;
+    background: rgba(8, 150, 255, 0.7);
+    border: 5px solid #000;
+    font-weight: 700;
+}
+
+.main__text {
+    margin: 10px;
+    text-align: center;
+}
+
+.main__button {
+    cursor: pointer;
+}
+
+/*----------------ДЭНИ------------*/
+/*--------------FOOTER------------*/
+
+.footer {
+    min-height: 200px;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__block:nth-child(2) {
+    margin-left: 200px;    
+}
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer__block .logo {
+    margin: 0 20px 0 0 ;
+}
+
+.footer__block .menu {
+    width: auto;
+    flex-flow: column;
+    min-width: auto;
+}
+.footer__block .menu__item {
+    margin-top: 10px;
+}
+
+.footer___title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.footer__text {
+    font-size: 15px;
+}
+
+/*-------------------------------*/
