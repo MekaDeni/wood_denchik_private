@@ -52,7 +52,7 @@
 }
 
 .menu__item--channel {
-    color: #42aaff;
+    color: #00a0a0;
 }
 
 
@@ -106,7 +106,7 @@
 /*-------------------------------*/
 
 /*_____MAIN_____*/
-.main__block--second {
+.main__block--third {
     background: #000;
 }
 .main__block {
@@ -120,7 +120,7 @@
     width: 50px;
 }
 
-.main__slaid {
+.main__item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,18 +130,17 @@
     min-width: 130px;
     padding: 10px;
     margin: 30px;
-    border: 5px solid rgba(8, 150, 255, 0.9);
+    border: 5px solid rgba(0, 160, 160, 0.9);
     border-radius: 3px;
     background: #000;
     color: white;
 }
 
-.main__slaid:hover {
+.main__item:hover {
     margin-top: 0;
     transition: 0.3s;
-    background: rgba(8, 150, 255, 0.7);
+    background: rgba(0, 160, 160, 0.9);
     border: 5px solid #000;
-    font-weight: 700;
 }
 
 .main__text {
@@ -151,6 +150,69 @@
 
 .main__button {
     cursor: pointer;
+}
+
+/*REWIEWS*/
+
+.main__block--reviews {
+    position: relative;
+    background: linear-gradient(black, white, black);
+}
+
+.main__carousel,
+.main__slaid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__slaid {
+    opacity: 0;
+}
+
+.main__carousel {
+    height: 400px;
+    position: relative;  
+    z-index: 0;
+}
+
+.main__slaid-button {
+    position: absolute;
+    z-index: 1;
+}
+
+.main__slaid--selected {
+    opacity: 1;
+    width: 700px;
+    position: absolute;
+    z-index: 1;
+}
+
+.main__slaid .main__image {
+    margin-right: 20px;
+}
+
+.main__slaid-button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    top: 43%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.main__slaid-button:hover {
+    color: #00a0a0;
+    transition: 0.3s;
+}
+
+.main__slaid-button--left {
+    left: 100px;
+}
+
+.main__slaid-button--right {
+    right: 100px;
 }
 
 /*----------------ДЭНИ------------*/
