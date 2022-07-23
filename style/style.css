@@ -167,6 +167,10 @@
 }
 
 .main__slaid {
+    justify-content: left;
+}
+
+.main__slaid {
     opacity: 0;
 }
 
@@ -186,6 +190,8 @@
     width: 700px;
     position: absolute;
     z-index: 1;
+    transition-delay: 0.5s;
+    transition: 0.5s;
 }
 
 .main__slaid .main__image {
