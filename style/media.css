@@ -18,3 +18,18 @@
 		margin-left: 0px;
 	}
 }
+
+@media screen and (max-width: 1300px) {
+	.header__title,
+	.header__advant {
+	    font-size: 23px;
+	}
+
+	.header__subtitle {
+		font-size: 50px;
+	}
+
+	.shadow {
+	    padding: 40px 70px 40px 70px;
+	}
+}
