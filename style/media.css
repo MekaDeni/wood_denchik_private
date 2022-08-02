@@ -19,7 +19,7 @@
 	}
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
 	.header__title,
 	.header__advant {
 	    font-size: 23px;
@@ -32,4 +32,10 @@
 	.shadow {
 	    padding: 40px 70px 40px 70px;
 	}
+}
+
+
+
+@media screen and (max-width: 1100px) {
+	
 }

@@ -54,13 +54,53 @@
 }
 
 .menu__item:hover {
-    color: #A8E4A0;
+    color: #00a0a0;
 }
 
 .menu__item--channel {
     color: #00a0a0;
 }
 
+.menu__item--channel:hover {
+    color: white;
+}
+
+.menu_media {
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#close {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 20px;
+    right: 25px;
+    background: transparent;
+    border: none;
+    transition: 0.2s;
+}
+
+#close:active {
+    color: #00a0a0;
+}
+
+.menu_media .menu__item {
+    margin-bottom: 10px;
+}
+
+.menu_media .menu__item:last-child {
+    margin-bottom: 0px;
+}
 
 /*-------------------------------*/
 /* Вуду пипол */
@@ -172,7 +212,7 @@
 
 .main__title {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .main__block--reviews .main__block--wrap {
